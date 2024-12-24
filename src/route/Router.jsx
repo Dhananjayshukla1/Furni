@@ -20,6 +20,7 @@ import AddUser from '../pages/admin/user/AddUser'
 import EditUser from '../pages/admin/user/EditUser'
 import Login from '../pages/front/Login'
 import Register from '../pages/front/Register'
+import Shop from '../pages/front/Shop'
 
 const Router = () => {
     return (
@@ -44,13 +45,16 @@ const Router = () => {
             {/* register page */}
             <Route path='/register' element={<Register />} />
 
+            {/* Shop page  */}
+            <Route path='/shop' element={<Shop />} />
+
             {/* Admin Route */}
             <Route path='/admin' element={<Auth />}>
                 {/* dashboard page */}
                 <Route path='' element={<Dashboard />} />
 
                 {/* profile edit page */}
-                <Route path='profile-edit' element={<ProfileEdit />} />
+                <Route path='edit-profile' element={<ProfileEdit />} />
 
                 {/* order page */}
                 <Route path='order'>

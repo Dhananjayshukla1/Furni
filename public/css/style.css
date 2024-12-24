@@ -30,6 +30,18 @@ a {
   a.more {
     font-weight: 600; }
 
+    Link {
+      text-decoration: none;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      color: #2f2f2f;
+      text-decoration: underline; }
+      Link:hover {
+        color: #2f2f2f;
+        text-decoration: none; }
+      Link.more {
+        font-weight: 600; }
 .custom-navbar {
   background: #3b5d50 !important;
   padding-top: 20px;

@@ -1,8 +1,11 @@
 import React from 'react'
+import Navigation from '../../layouts/Navigation'
 
 const Checkout = () => {
   return (
-    <div>Checkout</div>
+    <div>
+    <Navigation/>
+    Checkout</div>
   )
 }
 
